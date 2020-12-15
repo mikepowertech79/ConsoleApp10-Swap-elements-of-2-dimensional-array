@@ -9,6 +9,8 @@ namespace ConsoleApp10_Swap_elements_of_2_dimensional_array
 
 
     //source https://social.msdn.microsoft.com/Forums/en-US/a6548856-8828-40c5-8dba-a4ad037f1fff/swap-elements-of-2dimensional-array?forum=csharplanguage
+
+    //ok
     public class Sample
     {
         private double[,] data;
