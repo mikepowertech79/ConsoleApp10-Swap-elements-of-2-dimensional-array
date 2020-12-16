@@ -37,8 +37,50 @@ namespace ConsoleApp10_Swap_elements_of_2_dimensional_array
             var p1 = new Sample();
             var p2 = new Sample();
 
-            p1[0, 0] = 5;
+            //https://www.youtube.com/watch?v=T8ErAYobcbc
+
+
+            //p1[0, 0] = 0;
+
+            int m = 10;
+            int n = 10;
+
+            int ii = 0;//row
+            int jj = 0;//column
+
+            //for (int k = 0; k < m - 1; k++)
+            //{
+            //    ii = k;
+            //    jj = 0;
+            //    while (ii >= 0)
+            //    {
+
+            //        Console.WriteLine("P1[0,0] = {0} \nP2[0,0] = {1}\n", p1[0, 0], p2[0, 0]); 
+
+            //    }
+            //    {
+                    
+            //    }
+
+            //}
+
+
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    p2[i, j] = 5;
+
+                }
+
+            }
             p2[0, 0] = 10;
+
+
+
+
             Console.WriteLine("P1[0,0] = {0} \nP2[0,0] = {1}\n", p1[0, 0], p2[0, 0]);
             Swap(p1, p2, 0, 0, 0, 0);
             Console.WriteLine("P1[0,0] = {0} \nP2[0,0] = {1}", p1[0, 0], p2[0, 0]);
